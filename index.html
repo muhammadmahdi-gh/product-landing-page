@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Smart Gadget | Launching Now</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9fbfd;
+            color: #333;
+            line-height: 1.6;
+        }
+        .navbar {
+            background-color: #ffffff;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff4757;
+        }
+        .hero {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+            align-items: center;
+        }
+        .hero-text {
+            flex: 1;
+            min-width: 300px;
+            padding: 20px;
+        }
+        .hero-text h1 {
+            font-size: 48px;
+            color: #2f3542;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+        .hero-text p {
+            font-size: 18px;
+            color: #57606f;
+            margin-bottom: 30px;
+        }
+        .hero-image {
+            flex: 1;
+            min-width: 300px;
+            text-align: center;
+            padding: 20px;
+        }
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .btn-buy {
+            background-color: #ff4757;
+            color: white;
+            padding: 15px 35px;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            text-decoration: none;
+            box-shadow: 0 5px 15px rgba(255, 71, 87, 0.4);
+            transition: 0.3s;
+        }
+        .btn-buy:hover {
+            background-color: #e84118;
+            transform: translateY(-2px);
+        }
+        .features {
+            background-color: #ffffff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .features h2 {
+            font-size: 32px;
+            color: #2f3542;
+            margin-bottom: 40px;
+        }
+        .features-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .feature-card {
+            flex: 1;
+            min-width: 250px;
+            max-width: 350px;
+            padding: 25px;
+            background: #f1f2f6;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        .feature-card h3 {
+            color: #ff4757;
+            margin-bottom: 15px;
+        }
+        footer {
+            background-color: #2f3542;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="logo">Safa Snigdha</div>
+    <div>
+        <a href="#features" style="text-decoration:none; color:#57606f; font-weight:bold; margin-right:20px;">Features</a>
+        <a href="#buy" class="btn-buy" style="padding:8px 20px; font-size:14px;">Order Now</a>
+    </div>
+</div>
+
+<div class="hero">
+    <div class="hero-text">
+        <h1>Next-Gen Premium Smart Watch</h1>
+        <p>Experience the ultimate blend of style, technology, and health tracking. Designed for modern entrepreneurs who value time, connectivity, and performance.</p>
+        <a href="#buy" class="btn-buy" id="buy">Pre-Order Now (20% Off)</a>
+    </div>
+    <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80" alt="Premium Smart Watch">
+    </div>
+</div>
+
+<div class="features" id="features">
+    <h2>Why Choose Our Smart Watch?</h2>
+    <div class="features-grid">
+        <div class="feature-card">
+            <h3>⚡ AMOLED Display</h3>
+            <p>Crystal clear, high-resolution always-on display that looks stunning under direct sunlight.</p>
+        </div>
+        <div class="feature-card">
+            <h3>🔋 14-Day Battery Life</h3>
+            <p>Go worry-free for two weeks straight on a single charge with smart power optimization.</p>
+        </div>
+        <div class="feature-card">
+            <h3>❤️ Health Tracking</h3>
+            <p>Real-time 24/7 heart rate monitoring, sleep analysis, and blood oxygen level (SpO2) alerts.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Safa Snigdha Products. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
